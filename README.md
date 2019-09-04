@@ -1,6 +1,6 @@
 # Reddit-Flair-Detection
 
-# PROBLEM STATEMENT:
+## PROBLEM STATEMENT:
 
 The task is to build a system that given a link, can detect the flair (category) of a Reddit post.
 This task is divided into the following three parts:
