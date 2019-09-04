@@ -26,6 +26,8 @@ post and your model is used to predict the flair for that post.
 4. nltk
 5. re
 6. numpy
+7. Pymongo
+
 
 ## Procedure
 ##### Data Acquisition
