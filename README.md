@@ -36,6 +36,14 @@ post and your model is used to predict the flair for that post.
 - Remove URLs of 'Title','Body','Comments'.
 - Remove Stopwords
 
+### Flair Detection
+##### 1. Requirements and Installations
+- numpy
+- pandas
+- matplotlib
+- sklearn
+##### 2. 
+
 ## Data Vectorization
 ### Bag of Words
 Bag of Words (BoW) or CountVectorizer describes the presence of words within the text data. It gives a result of 1 if present in the sentence and 0 if not present. It, therefore, creates a bag of words with a document-matrix count in each text document.
