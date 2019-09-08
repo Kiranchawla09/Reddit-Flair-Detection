@@ -19,20 +19,22 @@ As a final step, we would like you to deploy the code and the trained model as a
 on Heroku or Digital Ocean Droplet with a user interface where we can input a link to a Reddit
 post and your model is used to predict the flair for that post.
 
-## Requirements and Installations
-1. Datetime
-2. Pandas
-3. Praw
-4. nltk
-5. re
-6. numpy
-7. Pymongo
-
-
 ## Procedure
-##### Data Acquisition
-
-
+### Data Acquisition
+##### 1.Requirements and Installations
+- Datetime
+- Pandas
+- Praw
+- nltk
+- re
+- numpy
+##### 2. Loading the application details and Collecting data for 'India' subreddit
+##### 3. Getting the Flairs for Reddit Detection
+##### 4. Data Cleaning
+- Lower case the data of 'Title','Body','Comments'.
+- Replacing the special characters of 'Title','Body','Comments'.
+- Remove URLs of 'Title','Body','Comments'.
+- Remove Stopwords
 
 ## Data Vectorization
 ### Bag of Words
