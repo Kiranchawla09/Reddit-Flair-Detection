@@ -1,6 +1,5 @@
 # Reddit-Flair-Detection
 
-## PROBLEM STATEMENT:
 The task is to build a system that given a link, can detect the flair (category) of a Reddit post.
 This task is divided into the following three parts:
 #### 1. Data Acquisition
@@ -9,7 +8,7 @@ posts you need to collect, but make sure you have enough posts belonging to each
 subreddit. Try to collect as much data associated with the post as possible (comments, link,
 timestamp, user handle). Divide this data into two separate training and testing sets. Save this
 data in a MongoDB instance.
-#### 2.Flair Detection
+#### 2. Flair Detection
 Once you have the training and the testing data ready, train a machine learning model to learn
 the flair prediction from the features of the posts. You can train multiple models using different
 sets of features (title, comment, link) and report the test set accuracy on each one of them.
@@ -22,20 +21,20 @@ post and your model is used to predict the flair for that post.
 ## Procedure
 ### Data Acquisition
 ## (Refer the Jupyter Notebook: Data Scraping.ipynb) 
-##### 1.Requirements and Installations
-- Datetime
-- Pandas
-- Praw
+##### 1. Requirements and Installations
+- datetime
+- pandas
+- praw
 - nltk
 - re
 - numpy
 ##### 2. Loading the application details and Collecting data for 'India' subreddit
 ##### 3. Getting the Flairs for Reddit Detection
 ##### 4. Data Cleaning
-- Lower case the data of 'Title','Body','Comments'.
-- Replacing the special characters of 'Title','Body','Comments'.
-- Remove URLs of 'Title','Body','Comments'.
-- Remove Stopwords
+- Lower case the data of 'Title', 'Body', 'Comments'.
+- Replacing the special characters of 'Title', 'Body', 'Comments'.
+- Remove URLs of 'Title', 'Body', 'Comments'.
+- Remove Stopwords.
 
 ## (End result is the csv file named: data_scraped6.csv)
 
@@ -68,7 +67,7 @@ Bag of Words (BoW) or CountVectorizer describes the presence of words within the
 |SDG  |0.491270|0.076233          |
 |Rand_Forest|0.494485|0.074110    |
 
-###### If 'title+body+comments' taken as feature
+###### If 'Title+ Body+ Comments' taken as feature
 |Model|Accuarcy|Standard Deviation|
 |-----|--------|------------------|
 |LR   |0.479839|0.070258         |
@@ -79,7 +78,7 @@ Bag of Words (BoW) or CountVectorizer describes the presence of words within the
 |Rand_Forest|0.478635|0.069299    |
 
 
-###### If 'title+body+url_address' taken as feature
+###### If 'Title+ Body+ Url_address' taken as feature
 |Model|Accuarcy|Standard Deviation|
 |-----|--------|------------------|
 |LR   | 0.908125|0.021205         |
