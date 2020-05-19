@@ -60,7 +60,7 @@ Bag of Words (BoW) or CountVectorizer describes the presence of words within the
 |Rand_Forest|0.478635|0.069299    |
 
 
-###### If 'Title+ Body+ Url_address' taken as feature
+###### If 'Title+ Comments+ Url_address' taken as feature
 |Model|Accuarcy|Standard Deviation|
 |-----|--------|------------------|
 |LR   | 0.908125|0.021205         |
